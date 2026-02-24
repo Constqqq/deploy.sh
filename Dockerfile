@@ -13,4 +13,4 @@ WORKDIR /app
 COPY . .
 
 # 5. Команда, которая запустится при старте контейнера
-CMD ["python", "hellow.py"]
+CMD ["python", "app.py"]
